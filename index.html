@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subramanian V - Personal Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Subramanian V" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Subramanian V">Subramanian V</h1>
+          <p class="title">B.Tech IT Student</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:vsubramanianofficial@gmail.com" class="contact-link">vsubramanianofficial@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+919751375567" class="contact-link">+91 9751375567</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Tenkasi, Tamil Nadu, India</address>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <p>Dedicated B.Tech IT student with expertise in web technologies, data management, and problem-solving.</p>
+          <p>Aspiring to contribute to a progressive organization by utilizing my skills in software development, AI,
+            and database management to create scalable, high-quality solutions.</p>
+        </section>
+
+        <header>
+          <h2 class="h2 article-title">Social Media</h2>
+        </header>
+        <section class="social-links">
+          <a href="https://www.linkedin.com/in/subramanian-v-a93089255/" target="_blank">
+            <img src="./assets/images/linkedin.png" alt="LinkedIn" class="social-icon">
+          </a>
+          <a href="https://github.com/Subramanian7986" target="_blank">
+            <img src="./assets/images/github.png" alt="GitHub" class="social-icon">
+          </a>
+        </section>
+      </article>
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ST JOSEPH’S MATRIC HR SEC SCHOOL, PANPOLI - SSLC</h4>
+              <span>2020</span>
+              <p class="timeline-text">Percentage: 97.4%</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ST JOSEPH’S MATRIC HR SEC SCHOOL, PANPOLI - HSC</h4>
+              <span>2022</span>
+              <p class="timeline-text">Percentage: 76.5%</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Ramco Institute of Technology</h4>
+              <span>2022 - 2026</span>
+              <p class="timeline-text">B.Tech in Information Technology | GPA: 8.15/10</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Geons Logix, Madurai - AI/ML Intern</h4>
+              <span>April 2023</span>
+              <p class="timeline-text">Learned the basics of machine learning algorithms, data preprocessing, and model
+                building.
+                Gained insight into practical applications of AI/ML and their role in solving industry-specific
+                challenges.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Online Intern - InternPe Pvt. Ltd.</h4>
+              <span>Oct 2023</span>
+              <p class="timeline-text">Gained hands-on experience with machine learning algorithms and their application
+                in solving real-world problems.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI/ML Intern - Innowell Engineering</h4>
+              <span>March 2024 - July 2024</span>
+              <p class="timeline-text">Developed and implemented a predictive model using advanced AI and ML techniques
+                to analyze airflow dynamics in buildings, enhancing energy efficiency.</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Get In Touch</h3>
+          <form class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+            <button class="form-btn" type="submit" disabled>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- EmailJS Library -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
